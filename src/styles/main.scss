@@ -1,0 +1,99 @@
+@import "variables";
+@import "theme";
+@import "components";
+@import "utilities";
+
+// Base styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+// Custom scrollbar
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--border-radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted);
+}
+
+// Leaflet map container overrides
+.leaflet-container {
+  font-family: var(--font-family);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--border-radius);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.leaflet-popup-tip {
+  background: var(--color-surface);
+}
+
+.leaflet-control {
+  border-radius: var(--border-radius-sm) !important;
+  background: var(--color-surface) !important;
+  color: var(--color-text) !important;
+}
+
+.leaflet-bar button {
+  background: var(--color-surface) !important;
+  color: var(--color-text) !important;
+}
+
+// Global animations
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity var(--transition-normal);
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.slide-enter-active,
+.slide-leave-active {
+  transition:
+    transform var(--transition-normal),
+    opacity var(--transition-normal);
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}

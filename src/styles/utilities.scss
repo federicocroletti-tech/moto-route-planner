@@ -1,0 +1,48 @@
+// Utility classes
+.hide-scrollbar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+// Map marker number badge
+.marker-badge {
+  @apply flex h-6 w-6 items-center justify-center rounded-full bg-accent text-xs font-bold text-background;
+}
+
+// Difficulty color helpers
+.difficulty-easy {
+  @apply text-success;
+}
+.difficulty-medium {
+  @apply text-warning;
+}
+.difficulty-hard {
+  @apply text-danger;
+}
+
+// Ride type color helpers
+.ride-scenic {
+  @apply text-info;
+}
+.ride-romantic {
+  @apply text-pink-400;
+}
+.ride-technical {
+  @apply text-orange-400;
+}
+.ride-short {
+  @apply text-lime-400;
+}
+.ride-weekend {
+  @apply text-purple-400;
+}
+.ride-tourist {
+  @apply text-blue-400;
+}

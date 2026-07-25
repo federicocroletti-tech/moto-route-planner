@@ -1,0 +1,275 @@
+{
+  "app": {
+    "name": "MotoRoute Planner",
+    "subtitle": "Pianifica il tuo prossimo giro in moto"
+  },
+  "nav": {
+    "home": "Home",
+    "itineraries": "Itinerari",
+    "create": "Crea itinerario",
+    "dashboard": "Dashboard",
+    "favorites": "Preferiti",
+    "profile": "Profilo",
+    "about": "Chi siamo"
+  },
+  "hero": {
+    "title": "Pianifica il tuo prossimo giro in moto",
+    "description": "Scopri itinerari panoramici, romantichi, tecnici e brevi dopo lavoro. Organizza i tuoi viaggi in moto con mappe interattive e tappe personalizzate.",
+    "cta": {
+      "explore": "Esplora itinerari",
+      "create": "Crea itinerario"
+    }
+  },
+  "home": {
+    "heroTitle": "Pianifica il tuo prossimo giro in moto",
+    "heroSubtitle": "Scopri itinerari panoramici, tecnici e romantici. Salva i preferiti e costruisci percorsi con tappe personalizzate.",
+    "explore": "Esplora itinerari",
+    "create": "Crea itinerario",
+    "whyChoose": "Perche usare MotoRoute Planner",
+    "benefitScenic": "Percorsi panoramici",
+    "benefitScenicDesc": "Trova strade belle da guidare, con viste e soste interessanti.",
+    "benefitCustom": "Tappe personalizzate",
+    "benefitCustomDesc": "Organizza partenza, soste, panorami, pranzo e arrivo.",
+    "benefitDifficulty": "Difficolta chiara",
+    "benefitDifficultyDesc": "Valuta rapidamente se un giro e facile, medio o impegnativo.",
+    "benefitDuration": "Distanza e durata",
+    "benefitDurationDesc": "Confronta chilometri e tempi prima di partire.",
+    "recommended": "Itinerari consigliati",
+    "ctaTitle": "Pronto a partire?",
+    "ctaSubtitle": "Apri la lista degli itinerari e scegli il giro piu adatto alla giornata.",
+    "startExploring": "Inizia a esplorare"
+  },
+  "features": {
+    "scenic": {
+      "title": "Percorsi panoramici",
+      "description": "Itinerari selezionati per le vedute più mozzafiato."
+    },
+    "customStops": {
+      "title": "Tappe personalizzate",
+      "description": "Aggiungi, rimuovi e riordina le tappe del tuo giro."
+    },
+    "difficulty": {
+      "title": "Difficoltà del percorso",
+      "description": "Classifica gli itinerari per livello di difficoltà."
+    },
+    "duration": {
+      "title": "Durata e distanza stimata",
+      "description": "Pianifica il tuo tempo con stime precise."
+    }
+  },
+  "itinerary": {
+    "distance": "Distanza",
+    "title": "Itinerari",
+    "subtitle": "Cerca, filtra e scegli il prossimo percorso in moto.",
+    "createTitle": "Crea itinerario",
+    "createSubtitle": "Aggiungi dettagli, tappe e informazioni utili per il tuo giro.",
+    "shortDescription": "Descrizione breve",
+    "duration": "Durata",
+    "difficulty": "Difficoltà",
+    "rideType": "Tipo giro",
+    "stops": "Tappe",
+    "recommended": "Consigliato",
+    "favorite": "Preferito",
+    "period": "Periodo consigliato",
+    "tips": "Consigli viaggio",
+    "equipment": "Equipaggiamento consigliato",
+    "scenicSpots": "Punti panoramici",
+    "backToList": "Torna alla lista",
+    "viewDetails": "Vedi dettagli",
+    "recommendedPeriod": "Periodo consigliato",
+    "addStop": "Aggiungi tappa",
+    "stop": "Tappa",
+    "noResults": "Nessun itinerario trovato",
+    "noResultsMessage": "Prova a modificare ricerca o filtri.",
+    "notFound": "Itinerario non trovato",
+    "notFoundMessage": "Il percorso richiesto non esiste o non e piu disponibile.",
+    "travelTips": "Consigli viaggio",
+    "recommendedGear": "Equipaggiamento consigliato",
+    "addToFavorites": "Aggiungi ai preferiti",
+    "removeFromFavorites": "Rimuovi dai preferiti"
+  },
+  "difficulty": {
+    "easy": "Facile",
+    "medium": "Media",
+    "hard": "Difficile"
+  },
+  "rideType": {
+    "scenic": "Panoramico",
+    "romantic": "Romantico",
+    "technical": "Tecnico",
+    "short": "Breve",
+    "weekend": "Weekend",
+    "tourist": "Turistico"
+  },
+  "period": {
+    "spring": "Primavera",
+    "summer": "Estate",
+    "autumn": "Autunno",
+    "winter": "Inverno",
+    "year-round": "Tutto l'anno"
+  },
+  "stopType": {
+    "name": "Nome tappa",
+    "type": "Tipo tappa",
+    "latitude": "Latitudine",
+    "longitude": "Longitudine",
+    "timeFromPrevious": "Tempo dalla tappa precedente",
+    "start": "Partenza",
+    "saddle": "Sosta",
+    "panorama": "Panorama",
+    "lunch": "Pranzo",
+    "gas": "Benzina",
+    "end": "Arrivo"
+  },
+  "filters": {
+    "title": "Filtri",
+    "search": "Cerca itinerari...",
+    "difficulty": "Difficoltà",
+    "rideType": "Tipo giro",
+    "maxDuration": "Durata massima",
+    "period": "Periodo consigliato",
+    "sort": "Ordina per",
+    "sortDistance": "Distanza",
+    "sortDuration": "Durata",
+    "sortDifficulty": "Difficoltà",
+    "sortName": "Nome",
+    "reset": "Resetta filtri",
+    "apply": "Applica",
+    "clear": "Pulisci",
+    "noResults": "Nessun itinerario trovato",
+    "noResultsDesc": "Prova a modificare i filtri di ricerca."
+  },
+  "sort": {
+    "distance": "Distanza",
+    "duration": "Durata",
+    "difficulty": "Difficolta",
+    "name": "Nome"
+  },
+  "form": {
+    "title": "Titolo",
+    "shortDescription": "Descrizione breve",
+    "fullDescription": "Descrizione completa",
+    "distance": "Distanza (km)",
+    "estimatedDuration": "Durata stimata",
+    "recommendedPeriod": "Periodo consigliato",
+    "travelTips": "Consigli viaggio",
+    "recommendedEquipment": "Equipaggiamento consigliato",
+    "addStop": "Aggiungi tappa",
+    "removeStop": "Rimuovi tappa",
+    "stopName": "Nome luogo",
+    "stopDescription": "Descrizione",
+    "stopLatitude": "Latitudine",
+    "stopLongitude": "Longitudine",
+    "stopType": "Tipo",
+    "stopEstimatedTime": "Tempo stimato dalla tappa precedente",
+    "save": "Salva itinerario",
+    "cancel": "Annulla",
+    "validation": {
+      "required": "Questo campo è obbligatorio",
+      "minLength": "Deve essere lungo almeno {min} caratteri",
+      "invalidNumber": "Inserisci un numero valido"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Sintesi dei tuoi itinerari e preferiti.",
+    "totalItineraries": "Itinerari totali",
+    "totalKm": "Km totali",
+    "totalDistance": "Km totali",
+    "totalDuration": "Durata totale",
+    "longestItinerary": "Itinerario più lungo",
+    "shortestItinerary": "Itinerario più breve",
+    "favoriteCount": "Itinerari preferiti",
+    "favorites": "Preferiti",
+    "byDifficulty": "Distribuzione per difficoltà",
+    "byRideType": "Distribuzione per tipo giro",
+    "topRecommended": "Top 3 consigliati",
+    "noData": "Nessun dato disponibile"
+  },
+  "profile": {
+    "title": "Profilo",
+    "username": "Nome utente",
+    "email": "Email",
+    "role": "Ruolo",
+    "language": "Lingua preferita",
+    "favorites": "Preferiti",
+    "favoriteCount": "Itinerari preferiti",
+    "createdCount": "Itinerari creati",
+    "lastLogin": "Ultimo accesso",
+    "logout": "Esci"
+  },
+  "auth": {
+    "login": "Accedi",
+    "loginTitle": "Accedi a MotoRoute Planner",
+    "loginDescription": "Usa la modalita demo o il provider configurato per continuare.",
+    "logout": "Esci",
+    "insufficientPermissions": "Non hai i permessi necessari per vedere questo contenuto.",
+    "mockMode": "Modalità demo",
+    "keycloakMode": "Keycloak",
+    "demoUser": "Federico Demo",
+    "demoEmail": "federico.demo@example.com",
+    "demoRole": "Rider Admin"
+  },
+  "map": {
+    "layers": "Layer",
+    "baseLayers": "Layer base",
+    "overlays": "Overlay",
+    "legend": "Leggenda",
+    "stop": "Tappa",
+    "route": "Percorso",
+    "wmsLayers": "Layer WMS",
+    "loading": "Caricamento mappa...",
+    "noLayers": "Nessun layer disponibile"
+  },
+  "about": {
+    "title": "Chi siamo",
+    "subtitle": "Un progetto portfolio per pianificare itinerari in moto.",
+    "goal": "Obiettivo",
+    "goalText": "Mostrare una SPA moderna per ricerca, creazione e gestione di itinerari motociclistici.",
+    "techStack": "Stack tecnologico",
+    "portfolio": "Progetto portfolio",
+    "objective": "Obiettivo",
+    "stack": "Stack tecnologico",
+    "features": "Funzionalità",
+    "realWorld": "Perché è utile nella vita reale",
+    "future": "Possibili evoluzioni",
+    "futureText": "Integrazione con backend reale, tracce GPX, meteo, notifiche e condivisione community.",
+    "feature1": "Mappa interattiva con tappe e percorso",
+    "feature2": "Filtri per difficolta, periodo e tipo giro",
+    "feature3": "Creazione itinerari locali",
+    "feature4": "Preferiti e dashboard",
+    "feature5": "Internazionalizzazione",
+    "feature6": "Autenticazione mock o Keycloak"
+  },
+  "favorites": {
+    "title": "Preferiti",
+    "subtitle": "Gli itinerari salvati per ritrovarli velocemente.",
+    "empty": "Nessun preferito",
+    "emptyMessage": "Aggiungi un itinerario ai preferiti per vederlo qui."
+  },
+  "common": {
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "retry": "Riprova",
+    "close": "Chiudi",
+    "save": "Salva",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "remove": "Rimuovi",
+    "confirm": "Conferma",
+    "cancel": "Annulla",
+    "back": "Indietro",
+    "next": "Avanti",
+    "all": "Tutti"
+  },
+  "404": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che stai cercando non esiste.",
+    "backHome": "Torna alla home"
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "message": "La pagina che stai cercando non esiste.",
+    "goHome": "Torna alla home"
+  }
+}

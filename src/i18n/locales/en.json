@@ -1,0 +1,275 @@
+{
+  "app": {
+    "name": "MotoRoute Planner",
+    "subtitle": "Plan your next motorcycle ride"
+  },
+  "nav": {
+    "home": "Home",
+    "itineraries": "Itineraries",
+    "create": "Create itinerary",
+    "dashboard": "Dashboard",
+    "favorites": "Favorites",
+    "profile": "Profile",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Plan your next motorcycle ride",
+    "description": "Discover scenic, romantic, technical and short-after-work routes. Organize your motorcycle trips with interactive maps and custom stops.",
+    "cta": {
+      "explore": "Explore itineraries",
+      "create": "Create itinerary"
+    }
+  },
+  "home": {
+    "heroTitle": "Plan your next motorcycle ride",
+    "heroSubtitle": "Discover scenic, technical and romantic routes. Save favorites and build routes with custom stops.",
+    "explore": "Explore itineraries",
+    "create": "Create itinerary",
+    "whyChoose": "Why use MotoRoute Planner",
+    "benefitScenic": "Scenic routes",
+    "benefitScenicDesc": "Find roads that are great to ride, with views and interesting stops.",
+    "benefitCustom": "Custom stops",
+    "benefitCustomDesc": "Organize start, breaks, viewpoints, lunch and arrival.",
+    "benefitDifficulty": "Clear difficulty",
+    "benefitDifficultyDesc": "Quickly understand whether a ride is easy, medium or demanding.",
+    "benefitDuration": "Distance and duration",
+    "benefitDurationDesc": "Compare kilometers and timing before leaving.",
+    "recommended": "Recommended itineraries",
+    "ctaTitle": "Ready to ride?",
+    "ctaSubtitle": "Open the itinerary list and choose the route that fits your day.",
+    "startExploring": "Start exploring"
+  },
+  "features": {
+    "scenic": {
+      "title": "Scenic routes",
+      "description": "Routes selected for the most breathtaking views."
+    },
+    "customStops": {
+      "title": "Custom stops",
+      "description": "Add, remove and reorder your ride stops."
+    },
+    "difficulty": {
+      "title": "Route difficulty",
+      "description": "Rank itineraries by difficulty level."
+    },
+    "duration": {
+      "title": "Estimated duration",
+      "description": "Plan your time with precise estimates."
+    }
+  },
+  "itinerary": {
+    "distance": "Distance",
+    "title": "Itineraries",
+    "subtitle": "Search, filter and choose your next motorcycle route.",
+    "createTitle": "Create itinerary",
+    "createSubtitle": "Add details, stops and useful information for your ride.",
+    "shortDescription": "Short description",
+    "duration": "Duration",
+    "difficulty": "Difficulty",
+    "rideType": "Ride type",
+    "stops": "Stops",
+    "recommended": "Recommended",
+    "favorite": "Favorite",
+    "period": "Recommended period",
+    "tips": "Travel tips",
+    "equipment": "Recommended equipment",
+    "scenicSpots": "Scenic spots",
+    "backToList": "Back to list",
+    "viewDetails": "View details",
+    "recommendedPeriod": "Recommended period",
+    "addStop": "Add stop",
+    "stop": "Stop",
+    "noResults": "No itineraries found",
+    "noResultsMessage": "Try changing search or filters.",
+    "notFound": "Itinerary not found",
+    "notFoundMessage": "The requested route does not exist or is no longer available.",
+    "travelTips": "Travel tips",
+    "recommendedGear": "Recommended equipment",
+    "addToFavorites": "Add to favorites",
+    "removeFromFavorites": "Remove from favorites"
+  },
+  "difficulty": {
+    "easy": "Easy",
+    "medium": "Medium",
+    "hard": "Hard"
+  },
+  "rideType": {
+    "scenic": "Scenic",
+    "romantic": "Romantic",
+    "technical": "Technical",
+    "short": "Short",
+    "weekend": "Weekend",
+    "tourist": "Tourist"
+  },
+  "period": {
+    "spring": "Spring",
+    "summer": "Summer",
+    "autumn": "Autumn",
+    "winter": "Winter",
+    "year-round": "Year-round"
+  },
+  "stopType": {
+    "name": "Stop name",
+    "type": "Stop type",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "timeFromPrevious": "Time from previous stop",
+    "start": "Start",
+    "saddle": "Saddle",
+    "panorama": "Panorama",
+    "lunch": "Lunch",
+    "gas": "Gas",
+    "end": "End"
+  },
+  "filters": {
+    "title": "Filters",
+    "search": "Search itineraries...",
+    "difficulty": "Difficulty",
+    "rideType": "Ride type",
+    "maxDuration": "Max duration",
+    "period": "Recommended period",
+    "sort": "Sort by",
+    "sortDistance": "Distance",
+    "sortDuration": "Duration",
+    "sortDifficulty": "Difficulty",
+    "sortName": "Name",
+    "reset": "Reset filters",
+    "apply": "Apply",
+    "clear": "Clear",
+    "noResults": "No itineraries found",
+    "noResultsDesc": "Try adjusting your search filters."
+  },
+  "sort": {
+    "distance": "Distance",
+    "duration": "Duration",
+    "difficulty": "Difficulty",
+    "name": "Name"
+  },
+  "form": {
+    "title": "Title",
+    "shortDescription": "Short description",
+    "fullDescription": "Full description",
+    "distance": "Distance (km)",
+    "estimatedDuration": "Estimated duration",
+    "recommendedPeriod": "Recommended period",
+    "travelTips": "Travel tips",
+    "recommendedEquipment": "Recommended equipment",
+    "addStop": "Add stop",
+    "removeStop": "Remove stop",
+    "stopName": "Place name",
+    "stopDescription": "Description",
+    "stopLatitude": "Latitude",
+    "stopLongitude": "Longitude",
+    "stopType": "Type",
+    "stopEstimatedTime": "Estimated time from previous stop",
+    "save": "Save itinerary",
+    "cancel": "Cancel",
+    "validation": {
+      "required": "This field is required",
+      "minLength": "Must be at least {min} characters",
+      "invalidNumber": "Please enter a valid number"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Summary of your itineraries and favorites.",
+    "totalItineraries": "Total itineraries",
+    "totalKm": "Total km",
+    "totalDistance": "Total km",
+    "totalDuration": "Total duration",
+    "longestItinerary": "Longest itinerary",
+    "shortestItinerary": "Shortest itinerary",
+    "favoriteCount": "Favorite itineraries",
+    "favorites": "Favorites",
+    "byDifficulty": "Distribution by difficulty",
+    "byRideType": "Distribution by ride type",
+    "topRecommended": "Top 3 recommended",
+    "noData": "No data available"
+  },
+  "profile": {
+    "title": "Profile",
+    "username": "Username",
+    "email": "Email",
+    "role": "Role",
+    "language": "Preferred language",
+    "favorites": "Favorites",
+    "favoriteCount": "Favorite itineraries",
+    "createdCount": "Created itineraries",
+    "lastLogin": "Last login",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "loginTitle": "Log in to MotoRoute Planner",
+    "loginDescription": "Use demo mode or the configured provider to continue.",
+    "logout": "Logout",
+    "insufficientPermissions": "You do not have permission to view this content.",
+    "mockMode": "Demo mode",
+    "keycloakMode": "Keycloak",
+    "demoUser": "Federico Demo",
+    "demoEmail": "federico.demo@example.com",
+    "demoRole": "Rider Admin"
+  },
+  "map": {
+    "layers": "Layers",
+    "baseLayers": "Base layers",
+    "overlays": "Overlays",
+    "legend": "Legend",
+    "stop": "Stop",
+    "route": "Route",
+    "wmsLayers": "WMS layers",
+    "loading": "Loading map...",
+    "noLayers": "No layers available"
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "A portfolio project for planning motorcycle itineraries.",
+    "goal": "Objective",
+    "goalText": "Show a modern SPA for searching, creating and managing motorcycle itineraries.",
+    "techStack": "Tech stack",
+    "portfolio": "Portfolio project",
+    "objective": "Objective",
+    "stack": "Tech stack",
+    "features": "Features",
+    "realWorld": "Why it's useful in real life",
+    "future": "Possible future evolutions",
+    "futureText": "Real backend integration, GPX tracks, weather, notifications and community sharing.",
+    "feature1": "Interactive map with stops and route",
+    "feature2": "Filters by difficulty, period and ride type",
+    "feature3": "Local itinerary creation",
+    "feature4": "Favorites and dashboard",
+    "feature5": "Internationalization",
+    "feature6": "Mock or Keycloak authentication"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "subtitle": "Saved itineraries for quick access.",
+    "empty": "No favorites yet",
+    "emptyMessage": "Add an itinerary to favorites to see it here."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "remove": "Remove",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "back": "Back",
+    "next": "Next",
+    "all": "All"
+  },
+  "404": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist.",
+    "backHome": "Back to home"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "message": "The page you are looking for does not exist.",
+    "goHome": "Back to home"
+  }
+}
